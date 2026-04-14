@@ -222,7 +222,7 @@ const HomePage = () => {
         <div className="text-center mt-4">
           <Link
             to="/events"
-            className="btn btn-danger"
+            className="btn"
             style={{ backgroundColor: CKIBlue }}
           >
             View All Events

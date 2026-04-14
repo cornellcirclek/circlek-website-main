@@ -116,6 +116,18 @@ const Layout = ({ children }) => {
                 >
                   <Mail {...socialIconStyle} />
                 </a>
+                <a
+                  href="https://linktr.ee/CornellCircleK"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mx-2"
+                  aria-label="Linktree"
+                  style={socialIconContainerStyle}
+                  onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.1) translateY(-2px)'}
+                  onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1) translateY(0)'}
+                >
+                  <LinkTree {...socialIconStyle} />
+                </a>
               </div>
             </Col>
             <Col md={4} className="text-center text-md-end">
