@@ -97,6 +97,18 @@ const AboutPage = () => {
       </Row>
       
       <div className="my-5 py-4 px-4 rounded" style={{ backgroundColor: '#f8f9fa' }}>
+        <h2 className="text-center mb-4">Our EBoard</h2>
+        <p className="lead text-center mb-0">
+          Circle K would not run properly without the dedication and hard work of our executive board. 
+          Our EBoard is responsible for planning and executing all of our events, managing our club operations, 
+          and fostering a positive and inclusive community for our members. We are grateful for their leadership 
+          and commitment to our club's mission!
+        </p>
+      </div>
+
+
+
+      <div className="my-5 py-4 px-4 rounded" style={{ backgroundColor: '#f8f9fa' }}>
         <h2 className="text-center mb-4">Our Mission</h2>
         <p className="lead text-center mb-0">
           Circle K International develops college and university students into a global network of responsible 
