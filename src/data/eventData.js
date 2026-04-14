@@ -1,6 +1,15 @@
 export const upcomingEvents = [
   // === Bi-Weekly GBody Meetings (Mondays) ===
   {
+    title: "Spring GBody #6",
+    date: "April 20, 2026",
+    time: "6:30 PM - 7:30 PM",
+    location: "Stimson Hall G01",
+    description: "Weekly meeting to discuss upcoming events, do service and fellowship! New members are welcome!",
+    category: "Meeting",
+    link: "https://cglink.me/2ee/r2300291"
+  },
+  {
     title: "Spring GBody #4",
     date: "Mar 23, 2026",
     time: "6:30 PM - 7:30 PM",
