@@ -170,10 +170,6 @@ const EventsPage = () => {
           </Card>
         </Col>
       </Row>
-    </Container>
-  );
-};
-
 
       {pastEvents.length > 0 && (
         <>
@@ -204,7 +200,8 @@ const EventsPage = () => {
           <p className="mb-0">Stimson Hall, G01</p>
         </div>
       </div>
-
-
+    </Container>
+  );
+};
 
 export default EventsPage;
