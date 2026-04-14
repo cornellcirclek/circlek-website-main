@@ -117,45 +117,7 @@ const AboutPage = () => {
           community for our members.
         </p>
       </div>
-      
-      <h2 className="text-center mb-4">Our Impact</h2>
-      <Row>
-        <Col md={6} className="mb-4">
-          <Card className="h-100 shadow-sm">
-            <Card.Header className="text-white" style={{ backgroundColor: CKIBlue }}>
-              <h3 className="h5 mb-0">Service Areas</h3>
-            </Card.Header>
-            <Card.Body>
-              <ul className="mb-0">
-                <li>Local community support for underserved populations</li>
-                <li>Environmental conservation and sustainability</li>
-                <li>Educational outreach and mentorship</li>
-                <li>Health and wellness initiatives</li>
-                <li>Support for children and seniors</li>
-                <li>Disaster relief and humanitarian aid</li>
-              </ul>
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col md={6} className="mb-4">
-          <Card className="h-100 shadow-sm">
-            <Card.Header className="text-white" style={{ backgroundColor: CKIBlue }}>
-              <h3 className="h5 mb-0">Leadership Development</h3>
-            </Card.Header>
-            <Card.Body>
-              <ul className="mb-0">
-                <li>Officer positions and committee roles</li>
-                <li>Project planning and management</li>
-                <li>Public speaking and communication skills</li>
-                <li>Team-building and collaboration</li>
-                <li>District and international conventions</li>
-                <li>Professional networking opportunities</li>
-              </ul>
-            </Card.Body>
-          </Card>
-        </Col>
-      </Row>
-      
+
       <div className="mt-5">
         <h2 className="mb-4">Join Us</h2>
         <p>
