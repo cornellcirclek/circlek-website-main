@@ -3,7 +3,7 @@
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'circle-k-dark-paper-1422'
+app = "circle-k-dark-paper-1422"
 primary_region = 'ewr'
 
 [build]
