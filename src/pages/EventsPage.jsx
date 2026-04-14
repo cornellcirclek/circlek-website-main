@@ -124,36 +124,6 @@ const EventsPage = () => {
         </>
       )}
 
-      {pastEvents.length > 0 && (
-        <>
-          <h2 className="mb-4">Past Events</h2>
-          <Row className="mb-5">
-            {pastEvents.map((event, index) => (
-              <Col key={index} lg={4} md={6} className="mb-4">
-                <EventCard event={event} />
-              </Col>
-            ))}
-          </Row>
-        </>
-      )}
-
-      <div
-        className="my-5 p-4 rounded text-center"
-        style={{ backgroundColor: "#f8f9fa" }}
-      >
-        <h2 className="mb-3">General Body Meetings</h2>
-        <p className="mb-4">
-          We hold weekly General Body Meetings where we discuss upcoming service
-          opportunities, share announcements, and enjoy fellowship + service
-          activities. These meetings are open to all Cornell students, whether
-          you're a member or just interested in learning more about Circle K.
-        </p>
-        <div className="fw-bold">
-          <p className="mb-1">Every Other Monday, 6:30 PM - 7:30 PM</p>
-          <p className="mb-0">Stimson Hall, G01</p>
-        </div>
-      </div>
-
       <h2 className="text-center mb-4">Signature Annual Events</h2>
       <Row className="mb-5">
         <Col md={4} className="mb-4">
@@ -189,34 +159,13 @@ const EventsPage = () => {
                   backgroundColor: CKIBlue,
                 }}
               >
-                <GhostIcon {...largeIconStyle} />
-              </div>
-              <Card.Title>Spooky Science</Card.Title>
-              <Card.Text>
-                Halloween themed science fair at the Science Center. Come teach kids about science experiments and crafts.
-              </Card.Text>
-              <div className="small text-muted">October 2025</div>
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col md={4} className="mb-4">
-          <Card className="h-100 shadow-sm text-center">
-          <Card.Body>
-              <div
-                className="rounded-circle mx-auto mb-3 d-flex align-items-center justify-content-center"
-                style={{
-                  width: "80px",
-                  height: "80px",
-                  backgroundColor: CKIBlue,
-                }}
-              >
                 <Apple {...largeIconStyle} />
               </div>
               <Card.Title>Apple Fest</Card.Title>
               <Card.Text>
                 Come help table for Apple Fest. Help out booths to support local merchants.
               </Card.Text>
-              <div className="small text-muted">November 2025</div>
+              <div className="small text-muted">September 2025</div>
             </Card.Body>
           </Card>
         </Col>
@@ -224,5 +173,38 @@ const EventsPage = () => {
     </Container>
   );
 };
+
+
+      {pastEvents.length > 0 && (
+        <>
+          <h2 className="mb-4">Past Events</h2>
+          <Row className="mb-5">
+            {pastEvents.map((event, index) => (
+              <Col key={index} lg={4} md={6} className="mb-4">
+                <EventCard event={event} />
+              </Col>
+            ))}
+          </Row>
+        </>
+      )}
+
+      <div
+        className="my-5 p-4 rounded text-center"
+        style={{ backgroundColor: "#f8f9fa" }}
+      >
+        <h2 className="mb-3">General Body Meetings</h2>
+        <p className="mb-4">
+          We hold weekly General Body Meetings where we discuss upcoming service
+          opportunities, share announcements, and enjoy fellowship + service
+          activities. These meetings are open to all Cornell students, whether
+          you're a member or just interested in learning more about Circle K.
+        </p>
+        <div className="fw-bold">
+          <p className="mb-1">Every Other Monday, 6:30 PM - 7:30 PM</p>
+          <p className="mb-0">Stimson Hall, G01</p>
+        </div>
+      </div>
+
+
 
 export default EventsPage;
