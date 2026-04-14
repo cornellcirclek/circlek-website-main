@@ -1,0 +1,45 @@
+/* Custom css to complement bootstrap */
+body {
+  font-family: 'Inter', 'Helvetica Neue', sans-serif;
+}
+
+/* Links in CKI Blue color */
+a {
+  color: rgb(0, 47, 95);
+}
+
+a:hover {
+  color: rgb(0, 47, 95);
+}
+
+/* Custom hover effects for cards */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+}
+
+/* For navbar links */
+.navbar .nav-link {
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-link:after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(0, 47, 95);
+  transition: width 0.3s ease;
+}
+
+.navbar .nav-link:hover:after,
+.navbar .nav-link.active:after {
+  width: 100%;
+}
