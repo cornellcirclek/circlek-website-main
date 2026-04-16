@@ -23,7 +23,7 @@ const Layout = ({ children }) => {
   return (
     <>
       {/* Navigation */}
-      <Navbar expand="lg" className="py-3 shadow-sm" bg="white">
+      <Navbar expand="lg" className="py-3 shadow-sm" bg="rgb(70,130,180)">
         <Container>
           <Navbar.Brand as={Link} to="/" className="d-flex align-items-center">
             <img
@@ -115,18 +115,6 @@ const Layout = ({ children }) => {
                   onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1) translateY(0)'}
                 >
                   <Mail {...socialIconStyle} />
-                </a>
-                <a
-                  href="https://linktr.ee/CornellCircleK"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="mx-2"
-                  aria-label="Linktree"
-                  style={socialIconContainerStyle}
-                  onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.1) translateY(-2px)'}
-                  onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1) translateY(0)'}
-                >
-                  <LinkTree {...socialIconStyle} />
                 </a>
               </div>
             </Col>
