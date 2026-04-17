@@ -81,6 +81,8 @@ const AboutPage = () => {
             )}
           </div>
         </Col>
+
+        
         <Col lg={6}>
           <h2 className="mb-3">Who We Are</h2>
           <p>
@@ -96,7 +98,7 @@ const AboutPage = () => {
         </Col>
       </Row>
       
-      <div className="my-5 py-4 px-4 rounded" style={{ backgroundColor: '#f8f9fa' }}>
+      <div className="my-5 py-4 px-4 rounded" style={{ backgroundColor: 'white', color: "black" }}>
         <h2 className="text-center mb-4">Our EBoard</h2>
         <p className="lead text-center mb-0">
           Circle K would not run properly without the dedication and hard work of our executive board. 
@@ -106,9 +108,56 @@ const AboutPage = () => {
         </p>
       </div>
 
+      <Row className="align-items-center mb-5" style={{ backgroundColor: 'white', color: "black" }}>
+        <Col md={4} className="text-center mb-4 mb-md-0">
+          <img
+            src={require('../assets/eboard/Calyssa Headshot.png')}
+            alt="Calyssa headshot"
+            className="img-fluid rounded"
+            style={{ maxHeight: '400px', objectFit: 'cover' }}
+          />
+        </Col>
+        <Col md={8}>
+          <h3 className="mb-3">Calyssa Orellana</h3>
+          <p>
+            Calyssa is the President of Cornell Circle K!
+          </p>
+          <p>
+            Class of 2028
+          </p>
+          <p>
+            Major: Chemistry
+          </p>
+          <p>
+            Hometown: Maryland
+          </p>
+          <p>
+            Fun Fact: Calyssa has over 40 house plants!
+          </p>
+        </Col>
+      </Row>
+<Row className="align-items-center mb-5 justify-content-center" style={{ backgroundColor: 'white', color: "black" }}>
+  {/* 1. The Text Column (Narrowed and Right-Aligned) */}
+  <Col md={8} className="text-md-end pe-md-4">
+    <h3 className="mb-3">Christopher Do</h3>
+    <p>Chris is the Vice President of Cornell Circle K!</p>
+    <p>Class of 2029</p>
+    <p>Major: Chemical Engineering</p>
+    <p>Hometown: Grand Prairie, Texas</p>
+    <p>Fun Fact: Chris used to compete in a calculator speed competition in high school!</p>
+  </Col>
 
-
-      <div className="my-5 py-4 px-4 rounded" style={{ backgroundColor: '#f8f9fa' }}>
+  {/* 2. The Image Column */}
+  <Col md={4} className="text-center mb-4 mb-md-0">
+    <img
+      src={require('../assets/eboard/Chris Headshot.png')}
+      alt="Chris headshot"
+      className="img-fluid rounded"
+      style={{ maxHeight: '400px', objectFit: 'cover' }}
+    />
+  </Col>
+</Row>
+      <div className="my-5 py-4 px-4 rounded" style={{ backgroundColor: CKIBlue, color: "rgb(255, 255, 255)" }}>
         <h2 className="text-center mb-4">Our Mission</h2>
         <p className="lead text-center mb-0">
           Circle K International develops college and university students into a global network of responsible 
