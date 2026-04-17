@@ -223,7 +223,7 @@ const HomePage = () => {
           <Link
             to="/events"
             className="btn"
-            style={{ backgroundColor: CKIBlue }}
+            style={{ backgroundColor: White, color: CKIBlue, borderColor: CKIBlue }}
           >
             View All Events
           </Link>
