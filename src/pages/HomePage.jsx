@@ -147,6 +147,17 @@ const HomePage = () => {
           </Col>
         </Row>
 
+      {/* Our Mission */}
+      <div className="my-5 py-4 px-4 rounded" style={{ backgroundColor: CKIBlue, color: "rgb(255, 255, 255)" }}>
+        <h2 className="text-center mb-4">Our Mission</h2>
+        <p className="lead text-center mb-0">
+          Circle K International develops college and university students into a global network of responsible 
+          citizens and leaders with a lifelong commitment to service. At Cornell, we fulfill this mission by 
+          organizing regular service projects, fostering leadership development, and creating a supportive 
+          community for our members.
+        </p>
+      </div>     
+
         {/* Club Stats with Animation */}
         <Row id="stats-section" className="text-center mb-5">
           {stats.map((stat, index) => (
@@ -229,6 +240,7 @@ const HomePage = () => {
           </Link>
         </div>
       </Container>
+
 
       {/* CTA Section */}
       <div

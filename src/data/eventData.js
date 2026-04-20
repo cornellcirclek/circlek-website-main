@@ -37,6 +37,19 @@ export const upcomingEvents = [
     link: "https://cglink.me/2ee/r2297991"
   },
 
+  // === Sophie Fund Gala (Fundraiser) ===
+  {
+    title: "The Sophie Fund Gala",
+    date: "April 26, 2026",
+    time: "6:00 PM - 9:00 PM",
+    location: "Robert Purcell Community Center 301",
+    description:
+      "Support the Sophie Fund with a night of fun and fundraising!",
+    category: "Fundraiser",
+    link: "",
+  },
+
+
   // === Sophie Fund Cupcake Contest (Service) ===
   {
     title: "The Sophie Fund Cupcake Contest",
