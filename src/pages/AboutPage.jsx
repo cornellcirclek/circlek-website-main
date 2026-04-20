@@ -243,7 +243,7 @@ const AboutPage = () => {
           <p>Class of 2029</p>
           <p>Major: Food Science</p>
           <p>Hometown: East Setauket, New York</p>
-          <p>Fun Fact: Katie is interested in ASL and Deaf Studies!</p>
+          <p>Fun Fact: Katie has been skydiving!</p>
         </Col>
       </Row>
 
