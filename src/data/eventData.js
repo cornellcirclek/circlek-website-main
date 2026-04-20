@@ -49,6 +49,18 @@ export const upcomingEvents = [
     link: "",
   },
 
+// === Relay for Life (Service) ===
+  {
+    title: "Relay for Life",
+    date: "April 26, 2026",
+    time: "12:00 PM - 6:00 PM",
+    location: "Arts Quad",
+    description:
+      "Help us support the American Cancer Society by participating in the relay for life with Circle K at Cornell!",
+    category: "Service",
+    link: "",
+  },
+
 
   // === Sophie Fund Cupcake Contest (Service) ===
   {
