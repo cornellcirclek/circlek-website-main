@@ -256,6 +256,8 @@ const AboutPage = () => {
     <p>Major: Mechanical Engineering</p>
     <p>Hometown: South Jordan, Utah</p>
     <p>Fun Fact: Ash is getting pretty good at making cake pops!</p>
+                      onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.1) translateY(-2px)'}
+                  onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1) translateY(0)'}
   </Col>
   {/* 2. The Image Column */}
   <Col md={4} className="text-center mb-4 mb-md-0">

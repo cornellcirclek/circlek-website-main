@@ -6,7 +6,7 @@ import nycki from "../assets/DCON-NYCKI.png";
 import { Calendar, Clock, MapPin } from "lucide-react";
 
 const HomePage = () => {
-  const CKIBlue = "rgb(0, 47, 95)";
+  const CKIBlue = "#002f5f";
   
   const stats = [
     { value: 26, label: "Members" },
