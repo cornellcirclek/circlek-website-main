@@ -325,7 +325,6 @@ const AboutPage = () => {
           <strong>Where:</strong> Stimson Hall G01
         </p>
       </div>
-
     </Container>
   );
 };

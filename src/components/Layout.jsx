@@ -117,6 +117,17 @@ const Layout = ({ children }) => {
                   <Mail {...socialIconStyle} />
                 </a>
               </div>
+{/* Equal Education and Employment Link */}
+  <div className="mt-3">
+    <a 
+      href="https://www.hr.cornell.edu/about/workplace-rights/equal-education-and-employment" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      className="small text-muted text-decoration-underline"
+    >
+      Equal Education and Employment
+    </a>
+  </div>
             </Col>
             <Col md={4} className="text-center text-md-end">
               <div className="mb-2">
