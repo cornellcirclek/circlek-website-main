@@ -85,39 +85,46 @@ const Layout = ({ children }) => {
 
       {/* Footer */}
       <footer className="py-4 bg-light mt-5">
-        <Container>
-          <Row className="align-items-center">
-            <Col md={4} className="text-center text-md-start mb-3 mb-md-0">
-              <h5 style={{ color: CKIBlue }}>Cornell Circle K</h5>
-              <p className="mb-0 small">Stimson Hall<br />Central Campus<br />Cornell University</p>
-            </Col>
-            <Col md={4} className="text-center mb-3 mb-md-0">
-              <h5>Connect With Us</h5>
-              <div className="d-flex justify-content-center">
-                <a 
-                  href="https://instagram.com/cornellcirclek" 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
-                  className="mx-2"
-                  aria-label="Instagram"
-                  style={socialIconContainerStyle}
-                  onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.1) translateY(-2px)'}
-                  onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1) translateY(0)'}
-                >
-                  <Instagram {...socialIconStyle} />
-                </a>
-                <a 
-                  href="mailto:cornellcirclek@gmail.com" 
-                  className="mx-2"
-                  aria-label="Email"
-                  style={socialIconContainerStyle}
-                  onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.1) translateY(-2px)'}
-                  onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1) translateY(0)'}
-                >
-                  <Mail {...socialIconStyle} />
-                </a>
-              </div>
-            </Col>
+      <Container>
+        <Row className="align-items-center">
+          {/* Column 1: Organization Address */}
+          <Col md={4} className="text-center text-md-start mb-3 mb-md-0">
+            <h5 style={{ color: CKIBlue }}>Cornell Circle K</h5>
+            <p className="mb-0 small">
+              Stimson Hall<br />
+              Central Campus<br />
+              Cornell University
+            </p>
+          </Col>
+
+          {/* Column 2: Social Links & Compliance Link */}
+          <Col md={4} className="text-center mb-3 mb-md-0">
+            <h5>Connect With Us</h5>
+            <div className="d-flex justify-content-center">
+              <a 
+                href="https://instagram.com/cornellcirclek" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="mx-2"
+                aria-label="Instagram"
+                style={socialIconContainerStyle}
+                onMouseOver={(e) => (e.currentTarget.style.transform = 'scale(1.1) translateY(-2px)')}
+                onMouseOut={(e) => (e.currentTarget.style.transform = 'scale(1) translateY(0)')}
+              >
+                <Instagram {...socialIconStyle} />
+              </a>
+              <a 
+                href="mailto:cornellcirclek@gmail.com" 
+                className="mx-2"
+                aria-label="Email"
+                style={socialIconContainerStyle}
+                onMouseOver={(e) => (e.currentTarget.style.transform = 'scale(1.1) translateY(-2px)')}
+                onMouseOut={(e) => (e.currentTarget.style.transform = 'scale(1) translateY(0)')}
+              >
+                <Mail {...socialIconStyle} />
+              </a>
+            </div>
+
             {/* Equal Education and Employment Link */}
             <div className="mt-3">
               <a 
@@ -129,41 +136,27 @@ const Layout = ({ children }) => {
                 Equal Education and Employment
               </a>
             </div>
+          </Col>
 
-            <Col md={4} className="text-center text-md-end">
-              <div className="mb-2">
-                <Link 
-                  to="/" 
-                  className="text-decoration-none text-dark me-3"
-                  style={socialIconContainerStyle}
-                  onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.05) translateY(-1px)'}
-                  onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1) translateY(0)'}
-                >
-                  Home
-                </Link>
-                <Link 
-                  to="/about" 
-                  className="text-decoration-none text-dark me-3"
-                  style={socialIconContainerStyle}
-                  onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.05) translateY(-1px)'}
-                  onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1) translateY(0)'}
-                >
-                  About
-                </Link>
-                <Link 
-                  to="/events" 
-                  className="text-decoration-none text-dark"
-                  style={socialIconContainerStyle}
-                  onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.05) translateY(-1px)'}
-                  onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1) translateY(0)'}
-                >
-                  Events
-                </Link>
-              </div>
-              <p className="mb-0 small text-muted">© {currentYear} Cornell Circle K</p>
-            </Col>
-          </Row>
-        </Container>
+          {/* Column 3: Quick Navigation */}
+          <Col md={4} className="text-center text-md-end">
+            <div className="mb-2">
+              <Link to="/" className="text-decoration-none text-dark me-3">
+                Home
+              </Link>
+              <Link to="/about" className="text-decoration-none text-dark me-3">
+                About
+              </Link>
+              <Link to="/events" className="text-decoration-none text-dark">
+                Events
+              </Link>
+            </div>
+            <p className="small text-muted mb-0">
+              &copy; {new Date().getFullYear()} Cornell Circle K. All rights reserved.
+            </p>
+          </Col>
+        </Row>
+      </Container>
       </footer>
     </>
   );
