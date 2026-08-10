@@ -136,6 +136,13 @@ const Layout = ({ children }) => {
                 Equal Education and Employment
               </a>
             </div>
+            <div className="mt-3">
+              <a>
+                This organization is a registered student organization of Cornell University.
+              </a>
+            </div>
+
+
           </Col>
 
           {/* Column 3: Quick Navigation */}
