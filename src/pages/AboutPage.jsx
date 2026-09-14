@@ -321,8 +321,8 @@ const AboutPage = () => {
           officer about official membership! We look forward to welcoming you to our Circle K family!
         </p>
         <p className="mb-0">
-          <strong>When:</strong> Every Other Monday, 6:30 PM - 7:30 PM<br />
-          <strong>Where:</strong> Stimson Hall G01
+          <strong>When:</strong> Every Other Monday, 6:00 PM - 7:00 PM<br />
+          <strong>Where:</strong> Morill Hall 107
         </p>
       </div>
     </Container>
