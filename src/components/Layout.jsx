@@ -91,7 +91,7 @@ const Layout = ({ children }) => {
           <Col md={4} className="text-center text-md-start mb-3 mb-md-0">
             <h5 style={{ color: CKIBlue }}>Cornell Circle K</h5>
             <p className="mb-0 small">
-              Stimson Hall<br />
+              Morill Hall<br />
               Central Campus<br />
               Cornell University
             </p>

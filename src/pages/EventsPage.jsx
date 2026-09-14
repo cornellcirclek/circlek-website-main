@@ -196,8 +196,8 @@ const EventsPage = () => {
           you're a member or just interested in learning more about Circle K.
         </p>
         <div className="fw-bold">
-          <p className="mb-1">Every Other Monday, 6:30 PM - 7:30 PM</p>
-          <p className="mb-0">Stimson Hall, G01</p>
+          <p className="mb-1">Every Other Monday, 6:00 PM - 7:00 PM</p>
+          <p className="mb-0">Morill Hall 107</p>
         </div>
       </div>
     </Container>
